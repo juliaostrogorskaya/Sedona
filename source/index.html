@@ -9,101 +9,147 @@
 
 <body>
 <header class="page-header">
-  <nav class="main-nav">
-    <ul class="main-nav__list site-list">
-      <li class="site-list__item">
-        <a class="site-list__link" href="#">Главная</a>
-      </li>
-      <li class="site-list__item">
-        <a class="site-list__link" href="#">Фото и видео</a>
-      </li>
-      <li class="site-list__item site-list__item--logo">
-        <a class="site-list__link" href="#">
-          <picture>
-                    <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
-                    <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
-                    <img class="site-list__logo" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип города Седона">
-          </picture>
-        </a>
-      </li>
-      <li class="site-list__item">
-        <a class="site-list__link" href="#">Форма отзыва</a>
-      </li>
-      <li class="site-list__item">
-        <a class="site-list__link" href="#">HTML Academy</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="page-header__top">
+    <nav class="main-nav">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a class="site-list__link" href="#">Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="photo.html">Фото и видео</a>
+        </li>
+        <li class="site-list__item site-list__item--logo">
+          <a class="site-list__link" href="">
+            <picture>
+                      <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+                      <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+                      <img class="site-list__logo" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип города Седона">
+            </picture>
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="form.html">Форма отзыва</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#">HTML Academy</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="page-header__intro page-header__intro--image">
+    <h1 class="page-header__intro-title">Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</h1>
+    <p class="page-header__intro-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+  </div>
 </header>
+
 <main class="page-main">
-  <div class="promo">
-  </div>
-  <div class="intro">
-    <h1 class="intro__title">Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p class="intro__text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-  </div>
   <ul class="features">
     <li class="features__item features__item--blue">
-          <h2 class="features__title">Настоящий городок</h2>
-          <p class="features__numbers">&ndash; №1 &ndash;</p>
-          <p>Седона - не аттракцион для туристов, там&nbsp;течет своя&nbsp;жизнь</p>
-        </li>
-        <li class="features__image">
-          <picture>
-              <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.webp 1x, img/main-city-desktop@2x.webp 2x">
-              <source type="image/webp" media="(min-width: 768px)" srcset="img/main-city-tablet@1x.webp 1x, img/main-city-tablet@2x.webp 2x">
-              <source type="image/webp" srcset="img/main-city-mobile@1x.webp 1x, img/main-city-mobile@2x.webp 2x">
-              <source media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.jpg 1x, img/main-city-desktop@2x.jpg 2x">
-              <source media="(min-width: 768px)" srcset="img/main-city-tablet@1x.jpg 1x, img/main-city-tablet@2x.jpg 2x">
-              <img src="img/main-city-mobile@1x.jpg" width="320" height="260" srcset="img/main-city-mobile@2x.jpg 2x" alt="Жизнь в Седоне">
-            </picture>
-        </li>
-        <li class="features__item">
-          <h2 class="features__title features__title--house">Жилье</h2>
-          <p>Рекомендуем пожить в настоящем мотеле,&nbsp;все&nbsp;как&nbsp;в&nbsp;кино!</p>
-        </li>
-        <li class="features__item">
-          <h2 class="features__title features__title--food">Еда</h2>
-          <p>Всегда заказывайте фирменный бургер, вы&nbsp;не&nbsp;разочаруетесь!</p>
-        </li>
-        <li class="features__item">
-          <h2 class="features__title features__title--souvenir">Сувениры</h2>
-          <p>Не только китайского, но и местного производства!</p>
-        </li>
-        <li class="features__image">
-          <picture>
-              <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.webp 1x, img/main-bridge-desktop@2x.webp 2x">
-              <source type="image/webp" media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.webp 1x, img/main-bridge-tablet@2x.webp 2x">
-              <source type="image/webp" srcset="img/main-bridge-mobile@1x.webp 1x, img/main-bridge-mobile@2x.webp 2x">
-              <source media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.jpg 1x, img/main-bridge-desktop@2x.jpg 2x">
-              <source media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.jpg 1x, img/main-bridge-tablet@2x.jpg 2x">
-              <img src="img/main-bridge-mobile@1x.jpg" width="320" height="260" srcset="img/main-bridge-mobile@2x.jpg 2x" alt="Мост дьявола">
-            </picture>
-        </li>
-        <li class="features__item features__item--blue">
-          <h2 class="features__title">Там есть мост&nbsp;дьявола</h2>
-          <p class="features__numbers">&ndash; №2 &ndash;</p>
-          <p>Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-        </li>
-        <li class="features__item features__item--gray">
-          <h2 class="features__title">Небольшая площадь</h2>
-          <p class="features__numbers">&ndash; №3 &ndash;</p>
-          <p>Все интересные места находятся&nbsp;очень&nbsp;близко</p>
-        </li>
-        <li class="features__item features__item--gray">
-          <h2 class="features__title">Красивая дорога</h2>
-          <p class="numbers">&ndash; №4 &ndash;</p>
-          <p>Ехать в Седону из Лас-Вегаса совсем не&nbsp;скучно!</p>
-        </li>
-        <li class="features__item features__item--gray">
-          <h2 class="features__title">Мало туристов</h2>
-          <p class="numbers">&ndash; №5 &ndash;</p>
-          <p>Большинство едет в Гранд Каньон и&nbsp;толпится&nbsp;там</p>
-        </li>
+      <h2 class="features__title">Настоящий городок</h2>
+        <p class="features__numbers">&ndash; №1 &ndash;</p>
+        <p>Седона - не аттракцион для туристов, там&nbsp;течет своя&nbsp;жизнь</p>
+    </li>
+    <li class="features__image">
+      <picture>
+        <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.webp 1x, img/main-city-desktop@2x.webp 2x">
+        <source type="image/webp" media="(min-width: 768px)" srcset="img/main-city-tablet@1x.webp 1x, img/main-city-tablet@2x.webp 2x">
+        <source type="image/webp" srcset="img/main-city-mobile@1x.webp 1x, img/main-city-mobile@2x.webp 2x">
+        <source media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.jpg 1x, img/main-city-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="img/main-city-tablet@1x.jpg 1x, img/main-city-tablet@2x.jpg 2x">
+        <img src="img/main-city-mobile@1x.jpg" width="320" height="260" srcset="img/main-city-mobile@2x.jpg 2x" alt="Жизнь в Седоне">
+      </picture>
+    </li>
+    <li class="features__item">
+      <h2 class="features__title features__title--house">Жилье</h2>
+      <p>Рекомендуем пожить в настоящем мотеле,&nbsp;все&nbsp;как&nbsp;в&nbsp;кино!</p>
+    </li>
+    <li class="features__item">
+      <h2 class="features__title features__title--food">Еда</h2>
+      <p>Всегда заказывайте фирменный бургер, вы&nbsp;не&nbsp;разочаруетесь!</p>
+    </li>
+    <li class="features__item">
+      <h2 class="features__title features__title--souvenir">Сувениры</h2>
+      <p>Не только китайского, но и местного производства!</p>
+    </li>
+    <li class="features__image">
+      <picture>
+        <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.webp 1x, img/main-bridge-desktop@2x.webp 2x">
+        <source type="image/webp" media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.webp 1x, img/main-bridge-tablet@2x.webp 2x">
+        <source type="image/webp" srcset="img/main-bridge-mobile@1x.webp 1x, img/main-bridge-mobile@2x.webp 2x">
+        <source media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.jpg 1x, img/main-bridge-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.jpg 1x, img/main-bridge-tablet@2x.jpg 2x">
+        <img src="img/main-bridge-mobile@1x.jpg" width="320" height="260" srcset="img/main-bridge-mobile@2x.jpg 2x" alt="Мост дьявола">
+      </picture>
+    </li>
+    <li class="features__item features__item--blue">
+      <h2 class="features__title">Там есть мост&nbsp;дьявола</h2>
+      <p class="features__numbers">&ndash; №2 &ndash;</p>
+      <p>Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+    </li>
+    <li class="features__item features__item--gray">
+      <h2 class="features__title">Небольшая площадь</h2>
+      <p class="features__numbers">&ndash; №3 &ndash;</p>
+      <p>Все интересные места находятся&nbsp;очень&nbsp;близко</p>
+    </li>
+    <li class="features__item features__item--gray">
+      <h2 class="features__title">Красивая дорога</h2>
+      <p class="features__numbers">&ndash; №4 &ndash;</p>
+      <p>Ехать в Седону из Лас-Вегаса совсем не&nbsp;скучно!</p>
+    </li>
+    <li class="features__item features__item--gray">
+      <h2 class="features__title">Мало туристов</h2>
+      <p class="features__numbers">&ndash; №5 &ndash;</p>
+      <p>Большинство едет в Гранд Каньон и&nbsp;толпится&nbsp;там</p>
+    </li>
   </ul>
+  <section class="page-bottom">
+    <h2 class="page-bottom__title">Заинтересовались?</h2>
+    <p>Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    <a class="hotel-search-btn" href="#">Поиск гостиницы в Седоне</a>
+  </section>
+  <div class="main-footer__map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22020.789239683403!2d-111.77892526396639!3d34.87105181997542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1536428126685"
+          width="1200" height="350" style="border:0" allowfullscreen></iframe>
+  </div>
 </main>
-<footer>
 
+<footer class="page-footer">
+  <div class="page-footer__wrapper">
+    <p class="page-footer__hashtag">#visitsedona</p>
+    <div class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="#" aria-label="Мы в Твиттере">
+            <svg class="icon icon--twitter" width="46" height="48">
+              <use xlink:href="img/sprite.svg#sprite-icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#" aria-label="Мы на Фейсбуке">
+            <svg class="icon icon--fb" width="47" height="48">
+              <use xlink:href="img/sprite.svg#sprite-icon-fb"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="#" aria-label="Мы на ютубе">
+            <svg class="icon icon--youtube" width="46" height="48">
+              <use xlink:href="img/sprite.svg#sprite-icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__copyright copyright">
+      <p class="copyright__text">Разработано</p>
+        <a class="copyright__link" href="#">
+          <svg class="icon icon--htmlacademy" width="27" height="34">
+              <use xlink:href="img/sprite.svg#sprite-htmlacademy"></use>
+          </svg>
+        </a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
