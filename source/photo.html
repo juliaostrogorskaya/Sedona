@@ -53,13 +53,13 @@
               <source type="image/webp" srcset="img/photo-sunset-mobile@1x.webp 1x, img/photo-sunset-mobile@2x.webp 2x">
               <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg 1x, img/photo-sunset-desktop@1x.jpg 2x">
               <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg 1x, img/photo-sunset-tablet@2x.jpg 2x">
-              <img src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" srcset="img/photo-sunset-mobile@2x.jpg 2x" alt="Неродные просторы">
+              <img src="img/photo-sunset-mobile@1x.jpg" srcset="img/photo-sunset-mobile@2x.jpg 2x" alt="Неродные просторы">
             </picture>
           </a>
           <div class="photos-item__description">
             <div class="photos-item__header">
-              <h3>Неродные просторы</h3>
-              <p>Автор фото: Борис</p>
+              <h3 class="photos-item__title">Неродные просторы</h3>
+              <p class="photos-item__user">Автор фото: Борис</p>
             </div>
             <div class="photos-item__footer">
               <svg class="icon icon--twitter" width="23" height="21">
@@ -77,13 +77,13 @@
               <source type="image/webp" srcset="img/photo-cactus-mobile@1x.webp 1x, img/photo-cactus-mobile@2x.webp 2x">
               <source media="(min-width: 1200px)" srcset="img/photo-cactus-desktop@1x.jpg 1x, img/photo-cactus-desktop@1x.jpg 2x">
               <source media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.jpg 1x, img/photo-cactus-tablet@2x.jpg 2x">
-              <img src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" srcset="img/photo-cactus-mobile@2x.jpg 2x" alt="Местная растительность">
+              <img src="img/photo-cactus-mobile@1x.jpg" srcset="img/photo-cactus-mobile@2x.jpg 2x" alt="Местная растительность">
             </picture>
           </a>
           <div class="photos-item__description">
             <div class="photos-item__header">
-              <h3>Местная растительность</h3>
-              <p>Автор фото: Сергей</p>
+              <h3 class="photos-item__title">Местная растительность</h3>
+              <p class="photos-item__user">Автор фото: Сергей</p>
             </div>
             <div class="photos-item__footer">
               <svg class="icon icon--twitter" width="23" height="21">
@@ -101,13 +101,13 @@
               <source type="image/webp" srcset="img/photo-roads-mobile@1x.webp 1x, img/photo-roads-mobile@2x.webp 2x">
               <source media="(min-width: 1200px)" srcset="img/photo-roads-desktop@1x.jpg 1x, img/photo-roads-desktop@1x.jpg 2x">
               <source media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.jpg 1x, img/photo-roads-tablet@2x.jpg 2x">
-              <img src="img/photo-roads-mobile@1x.jpg" width="280" height="280" srcset="img/photo-roads-mobile@2x.jpg 2x" alt="Дорога на север">
+              <img src="img/photo-roads-mobile@1x.jpg" srcset="img/photo-roads-mobile@2x.jpg 2x" alt="Дорога на север">
             </picture>
           </a>
           <div class="photos-item__description">
             <div class="photos-item__header">
-              <h3>Дорога на север</h3>
-              <p>Автор фото: Петр</p>
+              <h3 class="photos-item__title">Дорога на север</h3>
+              <p class="photos-item__user">Автор фото: Петр</p>
             </div>
             <div class="photos-item__footer">
               <svg class="icon icon--twitter" width="23" height="21">
@@ -125,13 +125,13 @@
               <source type="image/webp" srcset="img/photo-bridge-mobile@1x.webp 1x, img/photo-bridge-mobile@2x.webp 2x">
               <source media="(min-width: 1200px)" srcset="img/photo-bridge-desktop@1x.jpg 1x, img/photo-bridge-desktop@1x.jpg 2x">
               <source media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
-              <img src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" srcset="img/photo-bridge-mobile@2x.jpg 2x" alt="Мост дьявола">
+              <img src="img/photo-bridge-mobile@1x.jpg" srcset="img/photo-bridge-mobile@2x.jpg 2x" alt="Мост дьявола">
             </picture>
           </a>
           <div class="photos-item__description">
             <div class="photos-item__header">
-              <h3>Мост дьявола</h3>
-              <p>Автор фото: Антон</p>
+              <h3 class="photos-item__title">Мост дьявола</h3>
+              <p class="photos-item__user">Автор фото: Антон</p>
             </div>
             <div class="photos-item__footer">
               <svg class="icon icon--twitter" width="23" height="21">
@@ -144,26 +144,33 @@
       </ul>
     </section>
     <section class="video">
-      <div class="video__wrapper">
-        <div class="video__header">
-          <h2 class="video__title">Все еще сомневаетесь?</h2>
-          <p class="video__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-        </div>
-        <div class="video__footer">
-          <div class="video__scroll">
+      <h2 class="video__title">Все еще сомневаетесь?</h2>
+      <p class="video__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+      <div class="video__player">
+        <picture>
+            <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+            <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+            <img class="video-presentation__image" src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Видеопрезентация">
+          </picture>
+        <div class="video__controls controls">
+          <div class="controls__scale">
+            <div class="controls__toggle"></div>
           </div>
-          <div class="video__player-bottom">
-            <button class="video__replay" type="button">
+          <div class="controls__menu">
+            <button class="controls__btn controls__btn--replay" type="button" aria-label="Повтор">
               <svg class="icon icon--video-replay" width="16" height="20">
                 <use xlink:href="img/sprite.svg#sprite-icon-video-replay"></use>
               </svg>
             </button>
-            <button class="video__subtitles" type="button">
+            <button class="controls__btn controls__btn--subtitles" type="button" aria-label="Субтитры">
               <svg class="icon icon--video-subtitles" width="32" height="20">
                 <use xlink:href="img/sprite.svg#sprite-icon-video-subtitles"></use>
               </svg>
             </button>
-            <button class="video__fulscreen" type="button">
+            <button class="controls__btn controls__btn--fullscreen" type="button" aria-label="Развернуть на весь экран">
               <svg class="icon icon--video-fullscreen" width="20" height="20">
                 <use xlink:href="img/sprite.svg#sprite-icon-video-fullscreen"></use>
               </svg>
