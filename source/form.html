@@ -78,6 +78,53 @@
               </li>
             </ul>
           </fieldset>
+          <fieldset class="feedback-form__section">
+            <h2 class="feedback-form__title">Ваше общее впечатление:</h2>
+            <ul class="feedback-form__list">
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="radio" name="impression" value="positive" id="positive" checked="">
+                <label class="feedback-form__item-label" for="positive">Скорее положительное</label>
+              </li>
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="radio" name="impression" value="negative" id="negative">
+                <label class="feedback-form__item-label" for="negative">Скорее отрицательное</label>
+              </li>
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="radio" name="impression" value="difficult" id="difficult">
+                <label class="feedback-form__item-label" for="difficult">Затрудняюсь ответить</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="feedback-form__section">
+            <h2 class="feedback-form__title">Посещенные достопримечательности:</h2>
+            <ul class="feedback-form__list">
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="checkbox" name="attractions" value="bridge" id="bridge" checked>
+                <label class="feedback-form__item-label" for="impression">Мост Дьявола</label>
+              </li>
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="checkbox" name="attractions" value="mountain" id="mountain" checked>
+                <label class="feedback-form__item-label" for="mountain">Гора-Колокол</label>
+              </li>
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="checkbox" name="attractions" value="park" id="park" checked>
+                <label class="feedback-form__item-label" for="park">Слайд-парк</label>
+              </li>
+              <li class="feedback-form__item">
+                <input class="feedback-form__item-input" type="checkbox" name="attractions" value="rocks" id="rocks">
+                <label class="feedback-form__item-label" for="rocks">Красные скалы</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="feedback-form__section">
+            <h2 class="feedback-form__title">Опишите свои эмоции:</h2>
+            <label class="visually-hidden" for="emotions">Опишите свои эмоции</label>
+            <textarea class="feedback-form__textarea" rows="10" cols="30" name="emotions" id="emotions" placeholder="Опишите подробно все свои восторги "></textarea>
+          </fieldset>
+          <div class="feedback-form__footer">
+            <button class="feedback-form__btn button" type="submit" name="button">Отправить отзыв</button>
+            <p class="feedback-form__required">* — обязательные поля</p>
+          </div>
         </form>
 
       </section>
