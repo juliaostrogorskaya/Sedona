@@ -159,13 +159,13 @@ img {
   .intro::after {
     content: "";
     position: absolute;
+    background-repeat: no-repeat;
     bottom: -1px;
     left: 0;
     z-index: 50;
     width: 320px;
     height: 26px;
-    background-image: url("../img/bg-intro-triangle-mobile.svg");
-    background-repeat: no-repeat; }
+    background-image: url("../img/bg-intro-triangle-mobile.svg"); }
 
 .promo {
   padding-left: 30px;
@@ -189,15 +189,46 @@ img {
   list-style: none; }
 
 .features__item {
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.features__item p {
+  margin: 0;
+  line-height: 21px; }
 
 .features__item--blue {
   background-color: #81b3d2;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative; }
+
+.features__item--blue:first-of-type::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg-triangle.svg");
+  width: 320px;
+  height: 37px;
+  top: -22px;
+  left: 0;
+  z-index: 40; }
+
+.features__item--blue:first-of-type .features__title {
+  padding-top: 15px; }
 
 .features__title {
   margin: 0;
+  padding-bottom: 9px;
   font-size: 18px;
   line-height: 26px;
   font-weight: bold; }
+
+.features__numbers {
+  padding-bottom: 15px; }
+
+.features__item--icons {
+  text-align: left; }
+
+.features__item--icons p {
+  color: #333333; }

@@ -16,8 +16,8 @@
   }
 
   &::after {
-    content: "";
-    position: absolute;
+    @include after;
+
     bottom: -1px;
     left: 0;
     z-index: 50;
@@ -26,6 +26,5 @@
     height: 26px;
 
     background-image: url("../img/bg-intro-triangle-mobile.svg");
-    background-repeat: no-repeat;
   }
 }
