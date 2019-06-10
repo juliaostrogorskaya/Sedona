@@ -39,6 +39,7 @@ body {
   line-height: 26px;
   font-family: "PT Sans", arial, sans-serif;
   text-transform: uppercase;
+  text-align: center;
   word-wrap: break-word; }
 
 a {
@@ -94,6 +95,7 @@ img {
   position: absolute;
   top: 0;
   left: 50%;
+  z-index: 20;
   margin-left: -50px; }
 
 .main-nav__logo-image {
@@ -103,10 +105,10 @@ img {
 
 .main-nav__toggle {
   position: absolute;
-  width: 23px;
-  height: 21px;
   top: 16px;
   right: 20px;
+  width: 23px;
+  height: 21px;
   background-color: transparent;
   border: none;
   cursor: pointer; }
@@ -129,16 +131,73 @@ img {
   .main-nav--opened .main-nav__toggle::before, .main-nav--opened .main-nav__toggle::after {
     content: "";
     position: absolute;
-    left: -4px;
     top: 5px;
+    left: -4px;
     width: 30px;
     height: 4px;
     background-color: #ffffff; }
   .main-nav--opened .main-nav__toggle::before {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
     -webkit-box-shadow: none;
-            box-shadow: none; }
+            box-shadow: none;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
   .main-nav--opened .main-nav__toggle::after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg); }
+
+.intro {
+  position: relative;
+  height: 160px;
+  text-align: center;
+  background-color: #81b3d2;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+  .intro--index {
+    height: 389px;
+    padding-top: 89px; }
+  .intro::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 50;
+    width: 320px;
+    height: 26px;
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-repeat: no-repeat; }
+
+.promo {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 27px; }
+
+.promo p {
+  margin: 0; }
+
+.promo__title {
+  margin: 0;
+  padding-top: 39px;
+  padding-bottom: 27px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold; }
+
+.features {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.features__item {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.features__item--blue {
+  background-color: #81b3d2;
+  color: #ffffff; }
+
+.features__title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold; }

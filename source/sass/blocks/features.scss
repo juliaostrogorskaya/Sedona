@@ -1,0 +1,19 @@
+.features {
+  @include reset-list;
+}
+
+.features__item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.features__item--blue {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.features__title {
+  margin: 0;
+
+  @include font-set(18px, $line-height, bold);
+}

@@ -40,6 +40,7 @@
   position: absolute;
   top: 0;
   left: 50%;
+  z-index: 20;
 
   margin-left: -50px;
 }
@@ -52,10 +53,12 @@
 
 .main-nav__toggle {
   position: absolute;
-  width: 23px;
-  height: 21px;
   top: 16px;
   right: 20px;
+
+  width: 23px;
+  height: 21px;
+
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -83,8 +86,8 @@
   &::after {
     content: "";
     position: absolute;
-    left: -4px;
     top: 5px;
+    left: -4px;
 
     width: 30px;
     height: 4px;
@@ -93,8 +96,8 @@
   }
 
   &::before {
-    transform: rotate(45deg);
     box-shadow: none;
+    transform: rotate(45deg);
   }
 
   &::after {
