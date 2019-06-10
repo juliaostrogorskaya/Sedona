@@ -1,0 +1,23 @@
+@mixin font-set($size,$line-height,$weight:null) {
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: $weight;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+@mixin after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}

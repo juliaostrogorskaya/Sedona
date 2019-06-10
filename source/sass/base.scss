@@ -8,6 +8,20 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+
+  font-size: $font-size;
+  line-height: $line-height;
+  font-family: $font-family;
+  text-transform: $text-transform;
+  word-wrap: break-word;
+}
+
 a {
   text-decoration: none;
 }
