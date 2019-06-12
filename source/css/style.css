@@ -173,7 +173,8 @@ img {
   margin-bottom: 27px; }
 
 .promo p {
-  margin: 0; }
+  margin: 0;
+  color: #333333; }
 
 .promo__title {
   margin: 0;
@@ -191,6 +192,8 @@ img {
 .features__item {
   padding-left: 20px;
   padding-right: 20px; }
+  .features__item:nth-of-type(5) {
+    padding-bottom: 35px; }
 
 .features__item p {
   margin: 0;
@@ -202,17 +205,16 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative; }
-
-.features__item--blue:first-of-type::before {
-  content: "";
-  position: absolute;
-  background-repeat: no-repeat;
-  background-image: url("../img/bg-triangle.svg");
-  width: 320px;
-  height: 37px;
-  top: -22px;
-  left: 0;
-  z-index: 40; }
+  .features__item--blue:first-of-type::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-triangle.svg");
+    width: 320px;
+    height: 37px;
+    top: -22px;
+    left: 0;
+    z-index: 40; }
 
 .features__item--blue:first-of-type .features__title {
   padding-top: 15px; }
@@ -220,6 +222,7 @@ img {
 .features__title {
   margin: 0;
   padding-bottom: 9px;
+  position: relative;
   font-size: 18px;
   line-height: 26px;
   font-weight: bold; }
@@ -227,8 +230,61 @@ img {
 .features__numbers {
   padding-bottom: 15px; }
 
+.features__image {
+  background-color: #81b3d2; }
+
+.features__image img {
+  display: block; }
+
 .features__item--icons {
-  text-align: left; }
+  text-align: left;
+  padding-left: 69px;
+  padding-top: 29px; }
 
 .features__item--icons p {
+  color: #333333;
+  padding-top: 5px; }
+
+.features__title--house {
+  padding-top: 5px; }
+  .features__title--house::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url("../img/icon-house.svg");
+    width: 38px;
+    height: 36px;
+    left: -46px;
+    top: -3px;
+    background-size: 93%; }
+
+.features__title--souvenir::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon-gift.svg");
+  width: 32px;
+  height: 38px;
+  left: -43px;
+  top: -11px;
+  background-size: 97%; }
+
+.features__title--food::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon-burger.svg");
+  width: 39px;
+  height: 34px;
+  left: -50px;
+  top: -5px;
+  background-size: 98%; }
+
+.features__item--gray {
+  background-color: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black; }
+
+.features__item--gray p {
   color: #333333; }
