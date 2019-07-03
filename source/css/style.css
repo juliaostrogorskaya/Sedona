@@ -282,9 +282,15 @@ img {
 
 .features__item--gray {
   background-color: #eeeeee;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid black; }
+  padding-top: 26px;
+  position: relative; }
 
 .features__item--gray p {
   color: #333333; }
+
+.features__text {
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 28px; }
+
+.features__item--gray:last-of-type .features__text {
+  border-bottom: none; }
