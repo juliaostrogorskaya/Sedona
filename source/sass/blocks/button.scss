@@ -1,0 +1,8 @@
+.button {
+  background-color: $primary-color;
+  text-align: center;
+  color: $third-text-color;
+  display: block;
+
+  @include font-set(21px, $line-height, bold);
+}

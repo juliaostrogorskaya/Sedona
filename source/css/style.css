@@ -294,3 +294,33 @@ img {
 
 .features__item--gray:last-of-type .features__text {
   border-bottom: none; }
+
+.hotel-search {
+  padding-top: 27px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .hotel-search p {
+    margin: 0;
+    line-height: 24px;
+    color: #333333;
+    padding-top: 18px;
+    padding-bottom: 36px; }
+
+.hotel-search__title {
+  margin: 0;
+  padding: 0; }
+
+.hotel-search__btn {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  margin-bottom: 49px; }
+
+.button {
+  background-color: #81b3d2;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold; }
