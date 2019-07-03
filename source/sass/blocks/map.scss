@@ -1,0 +1,17 @@
+.map iframe {
+  position: absolute;
+  z-index: 120;
+
+  width: 100%;
+  height: 350px;
+
+  border: none;
+}
+
+.map img {
+  position: relative;
+
+  display: block;
+
+  background-color: #d4dcc6;
+}
