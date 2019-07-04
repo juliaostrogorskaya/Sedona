@@ -329,9 +329,15 @@ img {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold; }
+  .button:hover, .button:focus {
+    background-color: #669ec0; }
+  .button:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3); }
 
 .map iframe {
   position: absolute;
+  left: 0;
   z-index: 120;
   width: 100%;
   height: 350px;
@@ -341,3 +347,59 @@ img {
   position: relative;
   display: block;
   background-color: #d4dcc6; }
+
+.page-footer__wrapper {
+  padding-top: 36px; }
+
+.page-footer__hashtag {
+  margin: 0;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold; }
+
+.socail {
+  text-align: center; }
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 36px;
+  padding-bottom: 40px; }
+
+.social__item {
+  margin: 0 3px; }
+
+.social__link {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .social__link:hover, .social__link:focus {
+    background-color: #669ec0; }
+  .social__link:active {
+    background-color: #5496bd; }
+    .social__link:active svg {
+      opacity: 0.3; }
+  .social__link svg {
+    fill: white; }

@@ -5,4 +5,14 @@
   display: block;
 
   @include font-set(21px, $line-height, bold);
+
+  &:hover,
+  &:focus {
+    background-color: $second-color;
+  }
+
+  &:active {
+    background-color: $third-color;
+    color: rgba($third-text-color, 0.3);
+  }
 }

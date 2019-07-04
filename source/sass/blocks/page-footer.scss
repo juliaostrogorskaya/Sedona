@@ -1,0 +1,54 @@
+.page-footer__wrapper {
+  padding-top: 36px;
+}
+
+.page-footer__hashtag {
+  margin: 0;
+
+  @include font-set(21px,$line-height,bold);
+}
+
+.socail {
+  text-align: center;
+}
+
+.social__list {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+
+.social__item {
+  margin: 0 3px;
+}
+
+.social__link {
+  width: 46px;
+  height: 48px;
+  background-color: $primary-color;
+  color: $third-text-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    background-color: $second-color;
+  }
+
+  &:active {
+    background-color: $third-color;
+
+    svg {
+      opacity: 0.3;
+    }
+  }
+
+  svg {
+    fill: white;
+  }
+}
